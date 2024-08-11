@@ -438,3 +438,9 @@ main {
     cursor: pointer;
 }
 /* footer section styles end */
+
+
+.hide{
+    display: none;
+    cursor: pointer;
+}

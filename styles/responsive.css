@@ -1,0 +1,93 @@
+@media screen and (max-width: 576px) {
+
+    .banner-container,
+    .item-content-item-,
+    .dash-board-container,
+    .self-contnainer ,
+    .contact-container,
+    .footer-container{
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .banner-parent-image,
+    .dash-content-image svg ,
+    .self-contant-image img{
+        width: 100%;
+    }
+
+    .item-content-text,
+    .work-content-text h3 ,
+    .sub-content-text,
+    .dash-sub-content,
+    .dash-board-container,
+    .self-contnainer,
+    .self-contant-text,
+    .contact-container,
+    .content-text,
+    .content-text-two p,
+    .footer-container,
+    .banner-container,
+    .item-container,
+    nav{
+        width: 100%;
+    }
+    .dash-content,
+    .self-contant-text{
+        padding: 20px;
+    }
+    .work-content-text-sub {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .contact-container{
+        height: auto;
+        padding: 0.4rem;
+        margin: 0.4rem;
+        width: calc( 100% - 2rem);
+    }
+    main{
+        background-size: cover; 
+        background-position: 26%; 
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .footer-container div{
+        margin: 1rem 0;
+    }
+    .none{
+        display: none;
+    }
+    .dash-board-container,
+    .self-contnainer
+    {
+        margin-top: 2rem;
+    }
+    .dash-content-image svg ,
+    .self-contant-text svg{
+        height: auto;
+    }
+    .content-text h3{
+        font-size: 1.75rem;
+        padding: 1rem;
+    }
+    .content-text-two p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .banner-content-text h3{
+        font-size: 1.75rem !important;
+    }
+    .banner-container{
+        padding-top: 2rem;
+    }
+    .hide{
+        display: block;
+    }
+    nav{
+        padding: 1rem;
+    }
+}
