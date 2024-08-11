@@ -25,6 +25,7 @@ nav {
     width: 77%;
     margin: 0 auto;
     justify-content: space-between;
+    padding: 45px 10px;
 }
 
 nav ul {
@@ -96,8 +97,8 @@ nav ul li a {
 }
 
 .banner-content-image-position .first-img,
-.second-img ,
-.items-positing-img img{
+.second-img,
+.items-positing-img img {
     position: absolute;
     transform: translate(-50%, -50%);
     /* z-index: 1; */
@@ -139,9 +140,10 @@ main {
     margin-top: 2rem;
 }
 
-.items img{
+.items img {
     width: 80px;
 }
+
 .items {
     max-width: 300px;
     height: 390px;
@@ -154,48 +156,105 @@ main {
     position: relative;
     z-index: 2;
 }
-.items p{
+
+.items p {
     font-size: var(--description-color);
     color: var(--primary-color);
 }
-.items h3{
+
+.items h3 {
     color: var(--primary-color);
     font-size: var(--medium-font-size);
 }
+
 #first-items-bg {
     background: rgb(255, 58, 68);
 }
-#second-items-bg{
+
+#second-items-bg {
     background-color: #FFBD2F;
 }
-#third-items-bg{
+
+#third-items-bg {
     background-color: #0489CA;
 }
-.items-fr{
+
+.items-fr {
     left: 73%;
     top: 130%;
     z-index: 1;
 }
-.items-sc{
+
+.items-sc {
     left: 26%;
     top: 130%;
     z-index: 1;
 }
-.item-content-text > p{
+
+.item-content-text>p {
     color: #D8D8D8;
     font-size: var(--base-font-size);
 }
-.item-content-text > h3{
+
+.item-content-text>h3 {
     font-size: var(--medium-two-font-size);
     font-weight: 700;
     text-transform: capitalize;
     line-height: 48px;
     margin-bottom: 0.75rem;
 }
-.item-content-text{
+
+.item-content-text {
     width: 600px;
     margin: 0 auto;
     text-align: center;
     color: var(--primary-color);
 }
+
 /* items section styles end */
+
+/* work section styles start */
+.work-container {
+    width: 77%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.work-content-text h3 {
+    font-size: 2.45rem;
+    color: var(--primary-color);
+    width: 634px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+.sub-content-text span{
+    color: #FFBD2F;
+    font-size: var(--medium-two-font-size);
+    font-weight: 700;
+}
+.sub-content-text {
+    width: 350px;
+    height: auto;
+    gap: 20px;
+}
+.sub-display{
+    flex-direction: column;
+}
+.work-content-text-sub{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px;
+    justify-items: center;
+}
+.sub-display p{
+    color: #D8D8D8;
+    font-size: var(--base-font-size);
+    margin-top: 0.5rem;
+}
+.sub-display h3{
+    color: var(--primary-color);
+    font-size: var(--medium-font-size);
+}
+/* work section styles end */
