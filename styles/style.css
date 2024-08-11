@@ -106,7 +106,7 @@ nav ul li a {
 
 .first-img {
     left: 90%;
-    top: 29%;
+    top: 34%;
     z-index: 1;
 }
 
@@ -122,6 +122,8 @@ nav ul li a {
 main {
     width: 100%;
     background-image: url('../asstes/Vector.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
 }
 
@@ -367,6 +369,7 @@ main {
     justify-content: space-between;
     padding: 6.5rem;
     margin-top: 6.5rem;
+    margin-bottom: 6.5rem;
 }
 .content-text h3{
     font-size: var(--large-font-size);
@@ -383,3 +386,55 @@ main {
     font-size: var(--medium-font-size);
 }
 /*  contact section end*/
+
+/* hr start */
+.hr{
+    border: 1px solid rgb(25, 103, 129);
+    margin: 4rem 0;
+}
+/* hr end */
+
+/* footer section styles start */
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.25rem;
+    justify-content: space-between;
+    align-items: normal;
+}
+.footer-content i{
+    /* width: 45px; */
+    color: var(--primary-color);
+    font-size: var(--medium-two-font-size);
+    cursor: pointer;
+}
+.footer-content{
+    width: 300px;
+}
+.sm-cnt{
+    gap: 25px;
+    margin-top: 14px;
+}
+.footer-content h3{
+    font-size: var(--medium-font-size);
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.footer-content p , .text-align-center{
+    font-size: var(--medium-font-size);
+    color: var(--primary-color);
+}
+.text-align-center{
+    text-align: center;
+    padding-bottom: 3rem;
+    color: #E6E6E6;
+}
+.footer-content ul li{
+    list-style: none;
+    font-size: var(--medium-font-size);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+/* footer section styles end */
