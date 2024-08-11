@@ -1,0 +1,111 @@
+:root {
+    --base-font-size: 1rem;
+    --medium-font-size: 1.125rem;
+    --large-font-size: 3rem;
+    --primary-color: #fff;
+    --font-color: #333333;
+    --description-color: rgb(136, 136, 136);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* navigation section styles start  */
+header {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 77%;
+    border: 2px solid red;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    gap: 34px;
+}
+
+nav ul li a {
+    font-size: var(--base-font-size);
+    text-decoration: none;
+    color: var(--font-color);
+
+}
+
+/* navigation section styles end */
+
+/* shared styles start */
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.primary-btn {
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    background: rgb(255, 58, 68);
+    padding: 13px 24px;
+    color: var(--primary-color);
+    font-size: var(--base-font-size);
+    cursor: pointer;
+}
+
+/* shared styles end */
+
+/* banner-content styles start */
+.banner-container {
+    width: 77%;
+    margin: 0 auto;
+    border: 2px solid steelblue;
+    padding-top: 6.25rem;
+    justify-content: space-between;
+}
+
+.banner-content-text {
+    max-width: 520px;
+    height: auto;
+    padding: 1.2rem;
+}
+
+.banner-content-text .banner-content-text-title {
+    color: rgb(34, 34, 34);
+    font-size: var(--large-font-size);
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+.banner-content-text p{
+    font-size: var(--base-font-size);
+    color: var(--description-color);
+    margin: 15px 0;
+}
+.banner-parent-image{
+    /* width: 100%; */
+    position: relative;
+    z-index: 2;
+}
+.banner-content-image-position .first-img , .second-img{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    /* z-index: 1; */
+}
+.first-img{
+    left: 90%;
+    top: 29%;
+    z-index: 1;
+}
+.second-img{
+    left: 58%;
+    top: 61%;
+    z-index: 1;
+}
+/* banner-content styles end */
