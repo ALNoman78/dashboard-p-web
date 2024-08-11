@@ -217,7 +217,7 @@ main {
 .work-container {
     width: 77%;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 6.5rem;
 }
 
 .work-content-text h3 {
@@ -274,12 +274,13 @@ main {
     margin-top: 6.5rem;
 }
 
-.dash-sub-content p{
+.dash-sub-content p {
     padding-left: 2.25rem;
     color: #D0D0D0;
     font-size: var(--base-font-size);
     line-height: 25px;
 }
+
 .dash-sub-content {
     width: 450px;
     border-radius: 16px;
@@ -287,16 +288,19 @@ main {
     background: rgb(12, 95, 121);
     padding: 25px;
 }
-.dash-content{
+
+.dash-content {
     flex-direction: column;
     gap: 45px;
     padding: 80px;
 }
+
 .dash-nm {
     gap: 8px;
     align-items: center;
 }
-.dash-nm span{
+
+.dash-nm span {
     width: 31px;
     height: 31px;
     border-radius: 50%;
@@ -306,14 +310,76 @@ main {
     align-items: center;
     justify-content: center;
 }
-.dash-nm  h3{
+
+.dash-nm h3 {
     font-size: var(--medium-font-size);
     color: var(--primary-color);
 }
-#span-dash-color{
+
+#span-dash-color {
     background-color: #FFBD2F;
 }
-#span-dash-sc-color{
+
+#span-dash-sc-color {
     background: rgb(255, 58, 68);
 }
+
 /* dash-board-container styles end */
+
+/* self-container  start */
+.self-contnainer {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 6.5rem;
+}
+
+.self-contant-text {
+    width: 482px;
+}
+
+.self-contant-text h3 {
+    color: var(--primary-color);
+    font-size: var(--medium-font-size);
+    margin-bottom: 1rem;
+}
+
+.self-contant-text p {
+    color: rgb(198, 198, 198);
+    font-size: var(--medium-font-size);
+    line-height: 2rem;
+    margin-bottom: 24px;
+}
+
+.self-contant-text span {
+    color: #C6C6C6;
+}
+
+/* self-container  end */
+
+/*  contact section start*/
+.contact-container {
+    border-radius: 45px;
+    background: rgb(12, 95, 121);
+    width: 80%;
+    margin: 0 auto;
+    height: 350px;
+    justify-content: space-between;
+    padding: 6.5rem;
+    margin-top: 6.5rem;
+}
+.content-text h3{
+    font-size: var(--large-font-size);
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.content-text{
+    width: 630px;
+    height: auto;
+}
+.content-text-two p{
+    width: 400px;
+    color: var(--primary-color);
+    font-size: var(--medium-font-size);
+}
+/*  contact section end*/
